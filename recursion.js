@@ -2,7 +2,7 @@
  function kaprekars(){
     let num=document.querySelector("#number").value;
     
- recursion = (num) => {
+ recursion1 = (num) => {
     do {
         let arr = [];
         let text = num.toString();
@@ -19,5 +19,5 @@
         num = difference;
     } while (num != 6174);
 }
-recursion(num);
+recursion1(num);
  }
