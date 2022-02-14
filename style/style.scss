@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#83a4d4, #b6fbff);
+}
+.container {
+  text-align: center;
+}
+.header {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  padding: 15px;
+  font-style: italic;
+}
+.formArea {
+  padding: 15px;
+  font-size: 1rem;
+  color: white;
+}
+
+input[type="text"] {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 15px;
+  outline: none;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.givenNumber {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+.result {
+  text-align: center;
+  font-size: 1.5rem;
+}
